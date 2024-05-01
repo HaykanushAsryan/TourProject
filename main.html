@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>nicepage</title>
+</head>
+
+<body>
+
+    <div class="header" id="home">
+        <div class="brand_name">
+            <h3> Travel.co</h3>
+        </div>
+        <div class="menu">
+            <ul class="menu_list" id="menu_list">
+                <a class="close" href="">X</a>
+                <li><a href="#section">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#footer">Contacts</a></li>
+                <li><a href="#section4">Page1</a></li>
+                <li><a href="./page3.html">Page3</a></li>
+            </ul>
+            <div id="mySidenav" style="font-size:30px;cursor:pointer;" class="menu_bar" onclick="openNav()">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <section class="section">
+        <div class="travel_info">
+            <h1 style="font-size: 70px; color: white;">Travel</h1>
+            <p style="font-size: 20px; color: white;">Here are my favorite travel and adventure quotes, paired with
+                images from my journeys around the world.</p>
+            <button class="button">read more</button>
+        </div>
+    </section>
+
+    <section class="countries_section" id="section">
+
+        <div class="enter_country">
+            <p style="text-align: center;font-weight: 400;font-size: 2.25rem; color: #478ac9">Start your journey</p>
+            <label for="cars" style="text-align: center;font-weight: 400;font-size:20px; color: #478ac9;">Choose a
+                country:</label><br>
+            <select
+                style="width: 150px;height: 25px; background-color: rgba(23, 118, 201, 0.158); text-align: center; font-size: 18px; color:  #478ac9; border: none; outline: none; box-shadow: 2px 2px;"
+                class="select" name="country" id="">
+                <option class="selected_option" value="select" selected>Select</option>
+            </select>
+        </div>
+        <div class="picture">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6139551.5283225225!2d12.712159999999988!3d41.290850000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d4fe82448dd203%3A0xe22cf55c24635e6f!2sItaly!5e0!3m2!1sen!2sam!4v1691403328614!5m2!1sen!2sam"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </section>
+    <section class="section2">
+        <div class="tour_activty">
+            <h1 style="font-size: 30px;">Browse Tours By Activity</h1>
+            <a href="">Outdoor Activites</a>
+            <a href="">Cultural & Thematic Tours</a>
+            <a href="">Family Friendly Tours</a>
+            <a href="">Holiday & Seasonal Tours</a>
+        </div>
+        <div class="tour_activty2">
+            <a href="">City Tours</a>
+            <a href="">Indulgence & Luxury Tours</a>
+            <a href="">Relaxation Tours</a>
+            <a href="">Wild & Adventure Tours</a>
+        </div>
+        <div class="tour_activty3">
+            <h1 style="font-size: 30px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Newsletter</h1>
+            <p style="color: #999999; font-size: 16px;">Subscribe for updates & promotions</p>
+            <div class="input_button">
+                <input class="mail_input" placeholder="Enter a valid email address" type="text">
+                <button class="submit">Submit</button>
+            </div>
+            <div class="icons">
+                <a href="https://www.facebook.com/"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/direct/inbox/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/feed/"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://myaccount.google.com/profile"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+
+        <div class="owl-carousel">
+            <div> <img style="width: 1500px; height: 500px;" src="./Img/Italy/Italy.jpg" alt="RIP"> </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div> <img style="width: 1500px; height: 500px;" src="./Img//Greece/Greece.webp" alt="RIP"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div> <img style="width: 1500px; height: 500px;" src="./Img//Thailand/Thailand.jpeg" alt="RIP"> </div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- <div class="div_blog">
+            <h1 style="font-size: 36px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Discount 10-30% Off</h1>
+            <p style=" text-align: right;font-size: 20px">Curabitur blandit tempus porttitor. Maecenas faucibus mollis
+                interdum. Duis
+                mollis, est non commodo luctus,
+                nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+            <button class="btn_tour">see tours</button> -->
+        <!-- </div> -->
+    </section>
+
+    <section class="section3">
+        <h1 style="font-size:36px;line-height: 60px;">Why Choose Us</h1>
+        <p style="font-size: 18px;letter-spacing: 2px;"><i>The gladdest moment in human life, me thinks, is a departure
+                into unknown lands.</i></p>
+    </section>
+    <section class="section4" id="section4">
+        <div class="about">
+            <div class="about_pic">
+                <!-- <img class="img img-1" src="./Img/Greece/Athens.jpg" alt="">
+                <img class="img img-2" src="./Img/Greece/blue-caves.jpg" alt="">
+                <img class="img img-3" src="./Img//Greece/delphi.jpg" alt="">
+                <img class="img img-4" src="./Img/Greece/mykonos.jpg" alt="">
+                <img class="img img-5" src="./Img/Greece/paros.jpg" alt="">
+                <img  class="img img-6" src="./Img/Italy/Amalfi-Coast.jpg" alt="">
+                <img  class="img img-7" src="./Img/Italy/Colosseum.jpg" alt="">
+                <img  class="img img-8" src="./Img/Italy/Pompeii.jpg" alt="">
+                <img  class="img img-9" src="./Img/Italy/Roman-Forum.jpg" alt="">
+                <img  class="img img-10" src="./Img/Italy/Tower-of-Pisa.jpg" alt="">
+                <img  class="img img-11" src="./Img/Italy/Vatican-City.jpg" alt=""> -->
+                <!-- <img class="slide_image"  alt=""> -->
+            </div>
+            <div class="pics">
+
+                <div
+                    style="background-image: url('./Img//legs.jpeg');background-repeat: no-repeat; background-size: cover;">
+                </div>
+                <div
+                    style="display: flex;flex-direction: column;align-items: center;justify-content: space-evenly; background-color: white;">
+                    <img style="width: 38px; height: 38px; fill: #478ac9" src="./Img//globe_icon.png" alt="">
+                    <h1 style="font-size: 24px;">Passionate Travel</h1>
+                    <p style="font-size: 14px;"><i>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+                            lacinia</i></p>
+                </div>
+                <div
+                    style="display: flex; flex-direction: column; align-items: center;justify-content: space-evenly; background-color: white;">
+                    <img style="width: 38px; height: 38px; fill: #478ac9" src="./Img//map_icon.svg" alt="">
+                    <h1 style="font-size: 24px;">Beautiful Places</h1>
+                    <p style="font-size: 14px;"><i>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+                            lacinia</i></p>
+                </div>
+                <div
+                    style="background-image: url(./Img//palm.jpeg);background-repeat: no-repeat; background-size: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <a style="text-decoration: none; color: #ffffff;" href="./main.html">
+            <h1>Travel.co</h1>
+        </a>
+        <div class="contact_icons">
+            <a href="https://www.facebook.com/"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/direct/inbox/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/feed/"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
+        </div>
+        <p style="font-size: 18px;"><i>Travel makes one modest. You see what a tiny place you occupy in the world.</i>
+        </p>
+    </footer>
+    <script src="jquery.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="./main.js"></script>
+    <!-- <script src="./test.js"></script> -->
+</body>
+
+</html>
